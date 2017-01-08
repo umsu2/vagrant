@@ -69,11 +69,11 @@ node default {
     vcsrepo {
         "$home/code/group":
             ensure => present,
-            source => "git://github.com/Berkeley-CS162/group0.git",
+            source => "git@github.com:umsu2/group0.git",
             remote => staff;
         "$home/code/personal":
             ensure => present,
-            source => "git://github.com/Berkeley-CS162/ta.git",
+            source => "git@github.com:umsu2/ta.git",
             remote => staff;
     }
 
